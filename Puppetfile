@@ -4,6 +4,7 @@ forge "http://forge.puppetlabs.com"
 # Versions should be updated to be the latest at the time you start
 mod "puppetlabs/inifile"
 mod "puppetlabs/stdlib"
+mod "puppetlabs/git"
 mod "puppetlabs/concat"
 mod "puppetlabs/ntp"
 mod "puppetlabs/registry"
