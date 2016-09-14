@@ -16,10 +16,6 @@ mod "puppetlabs/powershell"
 mod "puppetlabs/reboot"
 
 #Community / Approved Modules
-mod 'puppet_vim_env',
-  :git => 'git@github.com:puppetlabs/tse-module-puppet_vim_env.git',
-  :ref => '2.1.2'
-    
 mod "ncorrare/bginfo", "0.3.1"
 mod "ncorrare/windowstime"
 mod "trlinkin/domain_membership"
