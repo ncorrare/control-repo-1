@@ -12,10 +12,14 @@ mod "puppetlabs/chocolatey"
 mod "puppetlabs/dsc"
 mod "puppetlabs/motd"
 mod "puppetlabs/acl"
+mod "puppetlabs/powershell"
+mod "puppetlabs/reboot"
+
+#Community / Approved Modules
 mod "ncorrare/bginfo"
 mod "ncorrare/windowstime"
 mod "trlinkin/domain_membership"
-
+mod "badgerious-windows_env"
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
