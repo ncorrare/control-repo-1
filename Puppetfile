@@ -17,6 +17,7 @@ mod "puppetlabs/reboot"
 
 #Community / Approved Modules
 mod "ncorrare/bginfo", "0.3.1"
+mod "puppet/dotnet"
 mod "ncorrare/windowstime"
 mod "trlinkin/domain_membership"
 mod "badgerious-windows_env"
