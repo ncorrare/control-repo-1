@@ -20,7 +20,8 @@ mod "ncorrare/bginfo", "0.3.1"
 mod "puppet/dotnet"
 mod "ncorrare/windowstime"
 mod "trlinkin/domain_membership"
-mod "badgerious-windows_env"
+mod "badgerious/windows_env"
+mod "lwf/remote_file"
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
