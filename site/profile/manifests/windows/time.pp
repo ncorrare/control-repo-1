@@ -1,5 +1,5 @@
 class profile::windows::time (
-  $ntpservers    = hiera('ntpservers')
+  $ntpservers    = hiera('ntpservers'),
   ) {
     class { 'windowstime':
       servers => $ntpservers,
