@@ -1,2 +1,13 @@
 ---
-message: "This node is using common data"
+motdmessage: "Welcome to $hostname. Access to this node is restricted to authorized users"
+localadmin: "localadministrator"
+adminpassword: 
+openports:
+  - 3389
+  - 5985
+  - 5986
+ntpservers:
+  us.pool.ntp.org:
+    '0x02'
+  time.windows.com:
+    '0x01'
