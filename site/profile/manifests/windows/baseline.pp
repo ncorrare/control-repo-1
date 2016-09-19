@@ -1,19 +1,19 @@
 class profile::windows::baseline {
 
   reboot { 'afterpowershell':
-    when    => pending,
-    timeout => 15,
+    subscribe => Package['powershell'],
+    timeout   => 10,
   }
 
   service { 'wuauserv':
     ensure => 'running',
     enable => 'true',
-  } ->
+  }
+
   package { 'powershell':
     ensure   => latest,
     provider => 'chocolatey',
     install_options => ['-pre'],
-    notify => Reboot['afterpowershell'],
   }
   #Set up the right info in the Desktop Background
 
