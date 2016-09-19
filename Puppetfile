@@ -21,7 +21,7 @@ mod "ncorrare/windowstime"
 mod "trlinkin/domain_membership"
 mod "badgerious/windows_env"
 mod "lwf/remote_file"
-mod "liamjbennett/win_facts"
+#mod "liamjbennett/win_facts"
 mod "puppet/download_file"
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
