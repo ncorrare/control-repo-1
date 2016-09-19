@@ -15,8 +15,9 @@ class profile::windows::chocolatey (
     chocolatey_download_url => $chocolatey_download_url,
   }
 
-  require profile::windows::dotnet
+#Dotnet not required on 2k12
+#  require profile::windows::dotnet
 
-  Class['profile::windows::dotnet'] -> Class['chocolatey']
+#  Class['profile::windows::dotnet'] -> Class['chocolatey']
 
 }
