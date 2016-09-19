@@ -1,6 +1,6 @@
 class profile::windows::localadmin (
-  $localadmin    = hiera('localadmin')
-  $adminpassword = hiera('adminpassword')
+  $localadmin    = hiera('localadmin'),
+  $adminpassword = hiera('adminpassword'),
   ) {
   #Example Local Admin implementation, using DSC Types
 
