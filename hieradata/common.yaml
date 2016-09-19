@@ -1,7 +1,7 @@
 ---
 motdmessage: "Welcome to $hostname. Access to this node is restricted to authorized users"
-localadmin: "localadministrator"
-adminpassword: 
+localadmin: 'localadministrator'
+adminpassword: 'l33tp4ssw0rd' 
 openports:
   - 3389
   - 5985
