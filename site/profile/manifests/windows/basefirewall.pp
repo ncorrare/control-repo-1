@@ -1,7 +1,7 @@
 class profile::windows::basefirewall (
   $openports,
   ) {
-  dsc_xfirewall { $openports:
+  dsc_xfirewall { "$openports":
     dsc_name      => "Puppet - Allow $name",
     dsc_ensure    => 'present',
     dsc_direction => 'Inbound',
