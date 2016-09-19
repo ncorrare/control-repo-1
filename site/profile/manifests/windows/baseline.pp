@@ -13,7 +13,6 @@ class profile::windows::baseline {
   package { 'powershell':
     ensure   => latest,
     provider => 'chocolatey',
-    install_options => ['-pre'],
   }
   #Set up the right info in the Desktop Background
 
