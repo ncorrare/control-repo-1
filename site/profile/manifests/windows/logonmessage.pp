@@ -1,5 +1,5 @@
 class profile::windows::logonmessage (
-  $motdmessage   = hiera('motdmessage'),
+  $motdmessage,
   ) {
     class { 'motd':
       content => $motdmessage,

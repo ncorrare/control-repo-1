@@ -1,5 +1,5 @@
 class profile::windows::basefirewall (
-  $openports     = hiera('openports'),
+  $openports,
   ) {
   dsc_xfirewall { $openports:
     dsc_name      => "Puppet - Allow $name",

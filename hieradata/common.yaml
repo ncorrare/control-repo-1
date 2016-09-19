@@ -1,8 +1,8 @@
 ---
-motdmessage: "Welcome to $hostname. Access to this node is restricted to authorized users"
-localadmin: 'localadministrator'
-adminpassword: 'l33tp4ssw0rd' 
-openports:
+profile::windows::lomotdmessage: "Welcome to $hostname. Access to this node is restricted to authorized users"
+profile::windows::logonmessage::localadmin: 'localadministrator'
+profile::windows::logonmessage::adminpassword: 'l33tp4ssw0rd'
+profile::windows::basefirewall::openports:
   - 3389
   - 5985
   - 5986
