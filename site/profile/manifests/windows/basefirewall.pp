@@ -2,7 +2,7 @@ class profile::windows::basefirewall (
   $openports,
   ) {
   $openports.each |Integer $port| {
-    dsc_xfirewall { "$ports":
+    dsc_xfirewall { "Allow TCP/$port":
       dsc_name      => "Puppet - Allow $port",
       dsc_ensure    => 'present',
       dsc_direction => 'Inbound',
