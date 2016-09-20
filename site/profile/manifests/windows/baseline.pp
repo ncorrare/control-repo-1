@@ -43,5 +43,5 @@ class profile::windows::baseline {
 
   #Time Configuration
 
-  include profile::windows::time
+  #include profile::windows::time
 }
