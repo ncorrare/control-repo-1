@@ -1,12 +1,14 @@
 class profile::windows::basefirewall (
   $openports,
   ) {
-  dsc_xfirewall { "$openports":
-    dsc_name      => "Puppet - Allow $name",
-    dsc_ensure    => 'present',
-    dsc_direction => 'Inbound',
-    dsc_localport => $name,
-    dsc_protocol  => 'TCP',
-    dsc_action    => 'Allow',
+  $openports.each |Integer $port| {
+    dsc_xfirewall { "$ports":
+      dsc_name      => "Puppet - Allow $port",
+      dsc_ensure    => 'present',
+      dsc_direction => 'Inbound',
+      dsc_localport => $port,
+      dsc_protocol  => 'TCP',
+      dsc_action    => 'Allow',
+    }
   }
 }
