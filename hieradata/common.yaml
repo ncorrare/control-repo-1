@@ -11,7 +11,7 @@ ntpservers:
     '0x02'
   time.windows.com:
     '0x01'
-profile::windows::ecommerceweb::sitename: 'FourthCoffee'
+profile::windows::ecommerceweb::websitename: 'FourthCoffee'
 profile::windows::ecommerceweb::zipname: 'FourthCoffeeWebSiteContent.zip'
 profile::windows::ecommerceweb::sourcerepo: 'https://github.com/msutter/fourthcoffee/raw/master'
 profile::windows::ecommerceweb::destinationpath: 'C:\inetpub\FourthCoffee'
