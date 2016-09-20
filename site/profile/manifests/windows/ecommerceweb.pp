@@ -4,7 +4,7 @@ class profile::windows::ecommerceweb (
   $sourcerepo,
   $destinationpath,
   $zipname,
-  ){
+  ) {
   require profile::windows::iis
   $zipuri  = "${sourcerepo}/${zipname}"
   $zipfile = "${zippath}\\${zipname}"
