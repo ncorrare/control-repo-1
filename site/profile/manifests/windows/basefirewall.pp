@@ -6,7 +6,7 @@ class profile::windows::basefirewall (
       dsc_name      => "Puppet - Allow $port",
       dsc_ensure    => 'present',
       dsc_direction => 'Inbound',
-      dsc_localport => $port,
+      dsc_localport => "$port",
       dsc_protocol  => 'TCP',
       dsc_action    => 'Allow',
     }
