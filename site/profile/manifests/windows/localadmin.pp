@@ -6,7 +6,7 @@ class profile::windows::localadmin (
     ensure   => present,
     comment  => 'Jaye Tyler',
     password => $adminpassword,
-    groups   => ['BUILTIN/Administrators'],
+    groups   => ['Administrators'],
   }
   #Example Local Admin implementation, using DSC Types
 
