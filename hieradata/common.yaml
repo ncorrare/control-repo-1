@@ -1,5 +1,5 @@
 ---
-profile::windows::logonmessage::motdmessage: "Welcome to this Windows Server. Access to this node is restricted to authorized users"
+profile::windows::logonmessage::motdmessage: "GitHub is the Future"
 profile::windows::localadmin::localadmin: 'localadministrator'
 profile::windows::localadmin::adminpassword: 'l33tp4ssw0rd'
 profile::windows::basefirewall::openports:
