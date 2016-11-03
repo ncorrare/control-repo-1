@@ -16,7 +16,7 @@ class profile::windows::baseline {
   }
   #Set up the right info in the Desktop Background
 
-  include bginfo
+  #include bginfo
 
   #Install Software
 
